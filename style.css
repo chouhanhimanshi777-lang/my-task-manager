@@ -1,0 +1,94 @@
+/* General body styling for a modern font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom styling for completed tasks */
+.task-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    background-color: #e2e8f0;
+    border: 1px solid #cbd5e1;
+}
+
+/* Animation for tasks nearing the deadline or overdue */
+.reminder {
+    animation: pulse 1.5s infinite;
+    background-color: #fef3c7; /* A light yellow for reminders */
+    border: 1px solid #fcd34d;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+/* New priority-based styling */
+.priority-high {
+    background-color: #fee2e2; /* Light red for High priority */
+    border-left: 5px solid #ef4444;
+}
+
+.priority-medium {
+    background-color: #fffbeb; /* Light orange for Medium priority */
+    border-left: 5px solid #f97316;
+}
+
+.priority-low {
+    background-color: #dbeafe; /* Light blue for Low priority */
+    border-left: 5px solid #3b82f6;
+}
+
+.priority-high .task-text, .priority-high .task-deadline {
+    color: #b91c1c;
+}
+.priority-medium .task-text, .priority-medium .task-deadline {
+    color: #c2410c;
+}
+.priority-low .task-text, .priority-low .task-deadline {
+    color: #1d4ed8;
+}
+
+/* Additional styling to make the form look cleaner and compact */
+#task-form {
+    display: flex;
+    gap: 0.5rem; /* Reduced spacing between elements */
+    flex-wrap: wrap; /* Allows for responsive wrapping on smaller screens */
+}
+
+#task-form input, #task-form select, #task-form button {
+    border-radius: 0.75rem; /* Consistent rounded corners */
+}
+
+#task-form input[type="text"] {
+    flex-grow: 1;
+}
+
+#task-box {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
+}
+
+#clear-completed-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #d1d5db; /* A solid gray background */
+    color: #4b5563; /* Dark gray text */
+    font-weight: 600;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+#clear-completed-btn:hover {
+    background-color: #9ca3af;
+}
+

@@ -20,12 +20,6 @@ A dynamic and responsive task management application built with pure JavaScript,
 
 ## 🖼 Screenshots
 
-### 📌 Home Dashboard
-
-![Screenshot of the home dashboard](assets/Screenshot_1.png)
-
-A clean and modern dashboard showing task summary, quick add option, and statistics.
-
 ### 📌 Adding a New Task
 
 ![Screenshot of adding a new task](assets/Screenshot_2.png)
@@ -74,3 +68,4 @@ To get a local copy of this project up and running on your machine, follow these
 
 * *GitHub:* [@chouhanhimanshi777-lang](https://github.com/chouhanhimanshi777-lang)
 * *LinkedIn:* [Himanshi Chouhan](https://www.linkedin.com/in/himanshi-chouhan-69180a339/)
+

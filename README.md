@@ -1,4 +1,3 @@
------
 # Task Manager Pro
 
 A dynamic and responsive task management application built with pure JavaScript, HTML, and CSS. This project empowers users to add, edit, and organize their tasks with a modern and intuitive user interface.
@@ -24,11 +23,13 @@ A dynamic and responsive task management application built with pure JavaScript,
 ### 📌 Home Dashboard
 
 ![Screenshot of the home dashboard](assets/Screenshot_1.png)
+
 A clean and modern dashboard showing task summary, quick add option, and statistics.
 
 ### 📌 Adding a New Task
 
 ![Screenshot of adding a new task](assets/Screenshot_2.png)
+
 An intuitive form for adding tasks with priority, due date, and descriptive details.
 
 ***
@@ -45,18 +46,14 @@ An intuitive form for adding tasks with priority, due date, and descriptive deta
 
 ## 📂 Project Structure
 
-
-
 task-manager-pro/
-├── index.html                     \# Main HTML structure
-├── styles.css                       \# CSS styling and responsive design
-├── script.js                         \# JavaScript functionality
-├── assets/                          \# Images and screenshots
-│   ├── Screenshot\_1.png
-│   └── Screenshot\_2.png
-└── README.md                 \# Project documentation
-
-`
+├── index.html         # Main HTML structure
+├── styles.css         # CSS styling and responsive design
+├── script.js          # JavaScript functionality
+├── assets/            # Images and screenshots
+│   ├── Screenshot_1.png
+│   └── Screenshot_2.png
+└── README.md          # Project documentation
 
 ***
 
@@ -77,5 +74,3 @@ To get a local copy of this project up and running on your machine, follow these
 
 * *GitHub:* [@chouhanhimanshi777-lang](https://github.com/chouhanhimanshi777-lang)
 * *LinkedIn:* [Himanshi Chouhan](https://www.linkedin.com/in/himanshi-chouhan-69180a339/)
-`
-

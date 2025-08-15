@@ -1,21 +1,4 @@
 -----
-
-### The Problem: A Mismatch in the Filename
-
-File paths are very specific and must match the actual filename exactly.
-
-  * Your actual files (seen on the left side of your screenshot) are named Screenshot_1.png and Screenshot_2.png (using an underscore).
-  * Your Markdown code is trying to link to files with a space in the name (Screenshot _1.png), which don't exist.
-
-Additionally, some of your other links and formatting could be improved for better presentation.
-
------
-
-### The Solution
-
-Here is the corrected and fully formatted version of your README.md file. Simply copy all the code below and paste it into your README file on GitHub.
-
-markdown
 # Task Manager Pro
 
 A dynamic and responsive task management application built with pure JavaScript, HTML, and CSS. This project empowers users to add, edit, and organize their tasks with a modern and intuitive user interface.
@@ -95,3 +78,4 @@ To get a local copy of this project up and running on your machine, follow these
 * *GitHub:* [@chouhanhimanshi777-lang](https://github.com/chouhanhimanshi777-lang)
 * *LinkedIn:* [Himanshi Chouhan](https://www.linkedin.com/in/himanshi-chouhan-69180a339/)
 `
+
